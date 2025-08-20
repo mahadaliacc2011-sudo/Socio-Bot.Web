@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import BotPreview from "@/components/BotPreview";
+import BotPreview from "../components/BotPreview";
 
 export default function Portfolio() {
   const [bots, setBots] = useState([
@@ -48,3 +48,4 @@ export default function Portfolio() {
     </div>
   );
 }
+
